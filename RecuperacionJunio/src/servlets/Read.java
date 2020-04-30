@@ -43,12 +43,7 @@ public class Read extends HttpServlet {
         } else if(checkCookie("user", request.getCookies()) && session.getAttribute("user") != null
                 && session.getAttribute("Authorized") != null && session.getAttribute("Authorized").equals("yes")) {
            
-            Cookie cookies[] = request.getCookies();
-            String username = "";
-            for (int i = 0; i < cookies.length; i++) {
-                if (cookies[i].getName().equals("user"))
-                    username = cookies[i].getValue();
-            }
+            
             session.setAttribute("jugadores", Jugadores.readJugadores());
             getServletContext().getRequestDispatcher("/private/Index_user.jsp").forward(request, response);
 
