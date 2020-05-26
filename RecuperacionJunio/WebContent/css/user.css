@@ -1,0 +1,75 @@
+
+.bodyUser {
+	background-color: #D4FCE4;
+}
+
+
+#title {
+	text-align: center;
+	font-size: 50px;
+	font-family: Verdana;
+	letter-spacing: 1.5px;
+	color: #085F2B;
+}
+
+table tr, table td {
+	border: 3px solid #085F2B;
+	padding: 1%;
+	font-family: Verdana;
+}
+
+table th {
+	border: 3px solid #085F2B;
+	padding: 1%;
+	font-family: Verdana;
+}
+
+table caption {
+	color: #085F2B;
+	border: 3px solid #085F2B;
+	font-family: Verdana;
+	background-color:#9AE3B7;
+}
+
+table {
+	width: 80%;
+	margin-left: 10%;
+	border: 3px solid #085F2B;
+	height: 250px;
+	border-collapse: collapse;
+	background-color:#9AE3B7;
+	margin-bottom: 5%;
+}
+
+
+.botones {
+	display: flex;
+	margin-left: 30%;
+	margin-top: 5%;
+}
+
+.boton {
+	font-size: 16px;
+	margin-left: 10%;
+	width: 15% !important;
+	padding: 1%;
+	background-color: #1D9C50;
+	border: 3px solid #085F2B;
+	border-radius: 10px;
+	width: 10%;
+	font-family: Verdana;
+}
+
+ .boton a {
+	color: white;
+	text-decoration: none;
+}
+
+.boton2 {
+	color: white;
+	font-size: 12px;
+	background-color: #1D9C50;
+	border: 3px solid #085F2B;
+	font-family: Verdana;
+	margin-left: 3%;
+}
